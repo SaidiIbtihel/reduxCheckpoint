@@ -1,18 +1,39 @@
 .card {
-  max-width: 800px;
-  margin: auto;
+  border-radius: 10px;
+  max-width: 900px;
+  border-radius: 10px;
+  background-color: rgba(230, 155, 178, 0.6);
+  padding: 50px 50px;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px 20px 20px 20px;
+  background-image: linear-gradient(120deg, #e38aab 0%, #c81758 100%);
 }
 * {
   margin: 10px;
   padding: 0;
 }
+
 i {
   padding: 0.5rem;
   cursor: pointer;
 }
-/* .d-flex {
-  margin: 10%;
-} */
-/* .form-lable {
-  margin: 10%;
-} */
+
+.completed {
+  text-decoration: line-through;
+}
+#button-addon1 {
+  background-color: #6c0329;
+}
+#save {
+  background-color: #6c0329;
+}
+.mt-3 {
+  background-color: #e38aab;
+  border-radius: 10px;
+  max-width: 900px;
+  border-radius: 10px;
+  background-color: rgba(230, 155, 178, 0.6);
+  padding: 0px 10px;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px 0px 0px 20px;
+}

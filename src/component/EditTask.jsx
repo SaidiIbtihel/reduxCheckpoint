@@ -52,6 +52,7 @@ const EditTask = () => {
                 Close
               </button>
               <button
+                id="save"
                 type="button"
                 className="btn btn-primary"
                 onClick={onSave}
