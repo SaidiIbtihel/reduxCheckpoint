@@ -1,0 +1,18 @@
+.card {
+  max-width: 800px;
+  margin: auto;
+}
+* {
+  margin: 10px;
+  padding: 0;
+}
+i {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+/* .d-flex {
+  margin: 10%;
+} */
+/* .form-lable {
+  margin: 10%;
+} */
